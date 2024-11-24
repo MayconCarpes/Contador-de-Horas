@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+}
+
+section {
+    display: flex;
+    unicode-bidi: isolate;
+}
+
+#clock {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 10px; 
+    margin-bottom: 2px;
+}
+
+footer {
+    font-size: 1em;
+}
